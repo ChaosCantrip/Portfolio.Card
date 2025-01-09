@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faXTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import styles from "./CardPage.module.css";
-import {faGlobe} from "@fortawesome/free-solid-svg-icons";
+import {faEnvelope, faGlobe} from "@fortawesome/free-solid-svg-icons";
 
 export default function CardPage() {
     return (
@@ -15,6 +15,7 @@ export default function CardPage() {
                 <LinkBar text="GitHub" styleName={styles.github} icon={faGithub} href="https://github.com/ChaosCantrip" />
                 <LinkBar text="X (Twitter)" styleName={styles.twitter} icon={faXTwitter} href="https://twitter.com/chaoscantrip" />
                 <LinkBar text="LinkedIn" styleName={styles.linkedin} icon={faLinkedin} href="https://www.linkedin.com/in/chaoscantrip/" />
+                <LinkBar text="dev@chaoscantrip.com" styleName={styles.email} icon={faEnvelope} href="mailto:dev@chaoscantrip.com" />
             </section>
         </div>
     )
