@@ -59,6 +59,14 @@
     font-size: 1.2em;
     padding: 0.5em 1em;
     border-radius: 1em;
+    background: var(--background-colour);
+    color: var(--text-colour);
+    border: 1px solid var(--background-colour);
+}
+
+.link_bar:hover {
+    background: var(--text-colour);
+    color: var(--background-colour);
 }
 
 .link_bar_icon {
@@ -72,34 +80,21 @@
 }
 
 .github {
-    background: black;
-    color: white;
-    border: 1px solid black;
-}
-
-.github:hover {
-    background: white;
-    color: black;
+    --background-colour: black;
+    --text-colour: white;
 }
 
 .twitter {
-    background: #221122;
-    color: white;
-    border: 1px solid #221122;
-}
-
-.twitter:hover {
-    background: white;
-    color: #221122;
+    --background-colour: #221122;
+    --text-colour: white;
 }
 
 .linkedin {
-    background: #0077B5;
-    color: white;
-    border: 1px solid #0077B5;
+    --background-colour: #0077B5;
+    --text-colour: white;
 }
 
-.linkedin:hover {
-    background: white;
-    color: #0077B5;
+.website {
+    --background-colour: orangered;
+    --text-colour: white;
 }
