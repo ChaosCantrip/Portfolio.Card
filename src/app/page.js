@@ -2,11 +2,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faXTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import styles from "./CardPage.module.css";
 import {faEnvelope, faGlobe} from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
+import PortraitImage from "@public/Portrait.jpg";
 
 export default function CardPage() {
     return (
         <div className={styles.card}>
             <section className={styles.identity}>
+                <Image src={PortraitImage} alt={""} className={styles.portrait}/>
                 <h1 className={styles.name}>James Donald</h1>
                 <h2 className={styles.tag}>@chaoscantrip</h2>
             </section>
