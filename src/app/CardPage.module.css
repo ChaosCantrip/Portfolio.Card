@@ -105,3 +105,8 @@
     --background-colour: orangered;
     --text-colour: white;
 }
+
+.email {
+    --background-colour: #0072C6;
+    --text-colour: white;
+}
