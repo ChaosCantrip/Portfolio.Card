@@ -16,6 +16,6 @@ jobs:
         with:
           push: true
           tags: |
-            ghcr.io/ChaosCantrip/Portfolio/Card:latest
-            ghcr.io/ChaosCantrip/Portfolio/Card:${{ github.sha }}
+            ghcr.io/ChaosCantrip/portfolio/card:latest
+            ghcr.io/ChaosCantrip/portfolio/card:${{ github.sha }}
           file: ./Dockerfile
