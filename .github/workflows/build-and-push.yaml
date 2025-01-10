@@ -1,0 +1,21 @@
+name: Docker Build and Push
+
+on:
+  push:
+    branches: [ "main" ] # Or your desired branches
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build and Push
+        uses: docker/build-push-action@v3
+        with:
+          push: true
+          tags: |
+            ghcr.io/ChaosCantrip/Portfolio/Card:latest
+            ghcr.io/ChaosCantrip/Portfolio/Card:${{ github.sha }}
+          file: ./Dockerfile
