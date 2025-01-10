@@ -5,6 +5,10 @@ import {faEnvelope, faGlobe} from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import PortraitImage from "@public/Portrait.jpg";
 
+export const metadata = {
+    title: "ChaosCantrip"
+}
+
 export default function CardPage() {
     return (
         <div className={styles.card}>
