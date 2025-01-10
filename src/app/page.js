@@ -14,7 +14,7 @@ export default function CardPage() {
                 <h2 className={styles.tag}>@chaoscantrip</h2>
             </section>
             <section className={styles.links}>
-                <LinkBar text="Website" styleName={styles.website} icon={faGlobe} href="https://chaoscantrip.com" />
+                <LinkBar text="Portfolio" styleName={styles.website} icon={faGlobe} href="https://portfolio.chaoscantrip.com" />
                 <LinkBar text="GitHub" styleName={styles.github} icon={faGithub} href="https://github.com/ChaosCantrip" />
                 <LinkBar text="X (Twitter)" styleName={styles.twitter} icon={faXTwitter} href="https://twitter.com/chaoscantrip" />
                 <LinkBar text="LinkedIn" styleName={styles.linkedin} icon={faLinkedin} href="https://www.linkedin.com/in/chaoscantrip/" />
