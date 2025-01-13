@@ -13,7 +13,9 @@ export default function CardPage() {
     return (
         <div className={styles.card}>
             <section className={styles.identity}>
-                <Image src={PortraitImage} alt={""} className={styles.portrait}/>
+                <div className={styles.portrait_disc}>
+                    <Image src={PortraitImage} alt={""} className={styles.portrait}/>
+                </div>
                 <h1 className={styles.name}>James Donald</h1>
                 <h2 className={styles.tag}>@chaoscantrip</h2>
             </section>

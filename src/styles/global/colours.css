@@ -1,0 +1,31 @@
+:root {
+
+    /* https://catppuccin.com/palette */
+
+    --cpcm-rosewater: #f5e0dc;
+    --cpcm-flamingo: #f2cdcd;
+    --cpcm-pink: #f5c2e7;
+    --cpcm-mauve: #cba6f7;
+    --cpcm-red: #f38ba8;
+    --cpcm-maroon: #eba0ac;
+    --cpcm-peach: #fab387;
+    --cpcm-yellow: #f9e2af;
+    --cpcm-green: #a6e3a1;
+    --cpcm-teal: #94e2d5;
+    --cpcm-sky: #89dceb;
+    --cpcm-sapphire: #74c7ec;
+    --cpcm-blue: #89b4fa;
+    --cpcm-lavender: #b4befe;
+    --cpcm-text: #cdd6f4;
+    --cpcm-subtext1: #bac2de;
+    --cpcm-subtext0: #a6adc8;
+    --cpcm-overlay2: #9399b2;
+    --cpcm-overlay1: #7f849c;
+    --cpcm-overlay0: #6c7086;
+    --cpcm-surface2: #585b70;
+    --cpcm-surface1: #45475a;
+    --cpcm-surface0: #313244;
+    --cpcm-base: #1e1e2e;
+    --cpcm-mantle: #181825;
+    --cpcm-crust: #11111b;
+}
