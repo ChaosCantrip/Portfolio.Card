@@ -8,7 +8,7 @@
 
     /* Card Shadow */
 
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    box-shadow:  11px 15px rgba(0, 0, 0, 0.2), 0 24px 38px rgba(0, 0, 0, 0.14), 0 9px 46px rgba(0, 0, 0, 0.12);
 
     /* Content */
 
@@ -41,14 +41,14 @@
     align-items: center;
     border-radius: 50%;
     margin-bottom: 1em;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2), 0 12px 17px rgba(0, 0, 0, 0.14), 0 2px 22px rgba(0, 0, 0, 0.12);
 }
 
 .portrait {
     width: 10em;
     height: auto;
     border-radius: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2), 0 12px 17px rgba(0, 0, 0, 0.14), 0 2px 22px rgba(0, 0, 0, 0.12);
 }
 
 .name {
@@ -74,7 +74,7 @@
     align-items: center;
     gap: 1rem;
     text-decoration: none;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.14), 0 1px 18px rgba(0, 0, 0, 0.12), 0 3px 5px rgba(0, 0, 0, 0.2);
     font-size: 1.2em;
     padding: 0.5em 1.5em;
     border-radius: 1em;
@@ -100,25 +100,25 @@
 
 .github {
     --background-colour: black;
-    --text-colour: var(--cpcm-crust);
+    --text-colour: white;
 }
 
 .twitter {
     --background-colour: #221122;
-    --text-colour: var(--cpcm-crust);
+    --text-colour: white;
 }
 
 .linkedin {
     --background-colour: #0077B5;
-    --text-colour: var(--cpcm-crust);
+    --text-colour: white;
 }
 
 .website {
     --background-colour: orangered;
-    --text-colour: var(--cpcm-crust);
+    --text-colour: white;
 }
 
 .email {
     --background-colour: #0072C6;
-    --text-colour: var(--cpcm-crust);
+    --text-colour: white;
 }
