@@ -100,25 +100,25 @@
 
 .github {
     --background-colour: black;
-    --text-colour: var(--cpcm-text);
+    --text-colour: var(--cpcm-crust);
 }
 
 .twitter {
     --background-colour: #221122;
-    --text-colour: var(--cpcm-text);
+    --text-colour: var(--cpcm-crust);
 }
 
 .linkedin {
     --background-colour: #0077B5;
-    --text-colour: white;
+    --text-colour: var(--cpcm-crust);
 }
 
 .website {
     --background-colour: orangered;
-    --text-colour: white;
+    --text-colour: var(--cpcm-crust);
 }
 
 .email {
     --background-colour: #0072C6;
-    --text-colour: white;
+    --text-colour: var(--cpcm-crust);
 }
